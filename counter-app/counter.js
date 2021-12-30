@@ -26,7 +26,7 @@ function setColor () {
     } else if (counter.innerHTML < 0) {
         counter.style.color = 'red';
     } else {
-        counter.style.color = 'white';
+        counter.style.color = 'black';
     }
 }
 

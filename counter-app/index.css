@@ -43,13 +43,11 @@ img {
 }
 .counter{
   width: calc(100% - 60%);
-  padding: 20px 0px;
+  padding: 40px 20px;
   border-radius: 10px;
   background: var(--dark-grey);
 }
-.title{
-  font-size: 2.5rem;
-}
+
 .title h1 {
   background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
   background-size: cover;
@@ -57,12 +55,13 @@ img {
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
+  font-size: calc(1.6rem + 1.6vw);
 }
 
 .counter__number{
   font-size: 6rem;
   font-weight: 700;
-  color: var()
+  margin-bottom: 20px;
 }
 
 .counter__buttons button{
