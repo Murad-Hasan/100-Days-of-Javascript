@@ -4,4 +4,4 @@
 
 ###Day-1:
 
-![](https://ibb.co/rvPbtD0)
+![](https://i.ibb.co/kMn3yNB/download.png)
