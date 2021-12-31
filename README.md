@@ -14,6 +14,7 @@
 
 ##Random Number Generator Demo
 
-###Day-2:
+###Day-3:
+
 
 ![](https://im3.ezgif.com/tmp/ezgif-3-aa52453db1.gif)
