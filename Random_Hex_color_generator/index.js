@@ -10,3 +10,4 @@ const generateColorCode = () => {
 }
 
 button.addEventListener("click", generateColorCode)
+
