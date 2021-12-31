@@ -14,7 +14,7 @@ const backgroundColorCode = () => {
     const colorCode = Math.random().toString(16).substring(2, 8);
     document.body.style.backgroundColor = `#${colorCode}`;
 }
-//conent color change
+//content color change
 const contentColorCode = () => {
     const colorCode = Math.random().toString(16).substring(2, 8);
     document.querySelector('.content').style.backgroundColor = `#${colorCode}`;
