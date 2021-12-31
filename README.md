@@ -11,3 +11,9 @@
 ###Day-2:
 
 ![](https://i.ibb.co/s2YRtTp/Screenshot-19.png)
+
+##Random Number Generator Demo
+
+###Day-2:
+
+![](https://im3.ezgif.com/tmp/ezgif-3-aa52453db1.gif)
