@@ -1,7 +1,7 @@
 const btn = document.querySelector('.btn');
 const number = document.querySelector('.random_number')
 const reset = document.querySelector('.reset')
-const backgroundColorChange = document.querySelector('.heading')
+const backgroundColorChange = document.querySelector('.changeBg')
 
 btn.addEventListener('click', () => {
     const randomNumber = Math.floor(Math.random() * 10) + 1;

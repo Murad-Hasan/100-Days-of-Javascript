@@ -334,7 +334,3 @@ textarea {
     transition: all 0.2s ease-in-out;
     margin: 0.5rem;
 }
-
-.changeBg:active {
-    transform: scale(0.9);
-}
