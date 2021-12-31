@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+    --white: #ffffff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --grey: #eee;
+    --dark-grey: #d2eaea;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    display:grid;
+    place-items: center;
+    text-align: center;
+}
+.content{
+    border-radius: 10px;
+    padding: 3rem;
+    background-color: rgba(255,255,255,0.8);
+}
+.content > *{
+    margin-bottom: 1rem;
+}
+.title{
+    font-size: 3.9vw;
+}
+
+.color_title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #f857a6 0%, #ff5858  51%, #f857a6  100%)}
+.btn-grad {
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: black;
+    transition: 0.5s;
+    font-weight: bold;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.btn-grad:active {
+    transform: scale(0.95);
+}
