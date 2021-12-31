@@ -26,4 +26,5 @@ btn.addEventListener('click', contentColorCode)
 reset.addEventListener('click', () => {
     number.innerHTML = '0';
     number.style.color = '#0c0c0c';
+    document.querySelector('.content').style.backgroundColor = `#fff`;
 })
