@@ -4,7 +4,7 @@ const closeBtn = document.querySelector('.close');
 
 btn.addEventListener('click', openModal);
 closeBtn.addEventListener('click', closeModal);
-modal.addEventListener('click', closeModal);
+// modal.addEventListener('click', closeModal);
 
 
 //open modal
