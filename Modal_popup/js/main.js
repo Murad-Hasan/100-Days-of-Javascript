@@ -18,3 +18,11 @@ function closeModal() {
 window.addEventListener("load", function () {
     setTimeout(openModal, 1000);
 });
+
+window.hideWarning = false;
+window.addEventListener("beforeunload", (event) => {
+    if (!hideWarning) {
+        event.preventDefault();
+        event.returnValue = "";
+    }
+});
